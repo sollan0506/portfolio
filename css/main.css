@@ -150,12 +150,7 @@ body {
   margin-bottom: 21px;
 }
 #intro .intro-inner h2:nth-child(2){
-  font: 700 3.6rem 'Nanum Gothic', sans-serif;
-  color: #fff;
-  margin-bottom: 21px;
-}
-#intro .intro-inner h2:nth-child(3){
-  font: 700 1.4rem 'Nanum Gothic', sans-serif;
+  font: 700 3rem 'Nanum Gothic', sans-serif;
   color: #fff;
   margin-bottom: 63px;
 }
