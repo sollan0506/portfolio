@@ -281,54 +281,6 @@ body {
 
 
 
-/* ********** skill Area Start ********* */
-#skill .title h3{
-  height: 63px;
-  font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
-  text-align: center;
-  margin-bottom: 42px;
-  position: relative;
-}
-#skill .title h3::after{
-  content: ''; display: block;
-  width: 80px; height: 2px;
-  background-color: #000;
-  position: absolute; left: 50%; bottom: 0;
-  margin-left: -40px;
-}
-/* Progress Area Start */
-#skill .col-lg-6{
-  padding: 0 30px;
-  height: 63px; 
-  margin-bottom: 21px;
-}
-#skill .col-lg-6 h3{
-  width: 100%; height: 42px;
-  font: 700 2.4rem/42px 'Nanum Gothic', sans-serif;
-  position: relative;
-}
-#skill .col-lg-6 span{
-  font: 700 1.6rem/21px 'Nanum Gothic', sans-serif;
-}
-#skill .col-lg-6 .progress, 
-#skill .col-lg-6 .progress-bar {
-  height: 25px; border-radius: 5px;
-}
-#skill .col-lg-6 .progress-bar1,
-#skill .col-lg-6 .progress-bar2 {
-  background-color: #f18b6d;
-}
-#skill .col-lg-6 .progress-bar3,
-#skill .col-lg-6 .progress-bar4 {
-  background-color: #f1d204;
-}
-#skill .col-lg-6 .progress-bar5,
-#skill .col-lg-6 .progress-bar6 {
-  background-color: #6a4d8a;
-}
-
-
-
 /* ********** contact Area Start ********* */
 #contact{ 
   height: 800px; 
