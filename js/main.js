@@ -1,6 +1,6 @@
 $(function(){
   
-  // gmenu JS
+  // 포트폴리오 버튼 선택상태 만들기
   var gMenu = $('#filters-container .cbp-filter-item');
 
   gMenu.click(function(){
@@ -50,8 +50,6 @@ $(function(){
   // jarallax Call
   $('.jarallax').jarallax({
     speed: 0.2
-    // videoPlayOnlyVisible: false,
-    // videoLazyLoading: false
   });
 
 

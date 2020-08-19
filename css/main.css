@@ -37,7 +37,7 @@ body {
   color: #fff;
 }
 
-/* Jarallax Area Start */
+/* Jarallax 셋팅 */
 .jarallax {
   position: relative;
   z-index: 0;
@@ -54,25 +54,36 @@ body {
 }
 
 /* Container Area Reset */
-#wrap>div{width: 100%;}
-.container, .container-fluid{height: 100%;}
-.container{padding: 63px 0;}
+#wrap>div{
+  width: 100%;
+}
+.container, .container-fluid{
+  height: 100%;
+}
+.container{
+  padding: 63px 0;
+}
 
 
 
 /* ***************** 개별영역 선언시작 ****************** */
 /* ********** Navi Area Start ********* */
 #navi{
-  background-color: rgba(0, 0, 0, 0.5); border: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border: 0;
 
   -webkit-transition: all ease 0.8s;
   -moz-transition: all ease 0.8s;
   -o-transition: all ease 0.8s;
   transition: all ease 0.8s;
 }
-#navi .container{ padding: 0 15px; }
+#navi .container{ 
+  padding: 0 15px; 
+}
 #navi .container h1 a, 
-#navi .container #gnb li a{color: #fff;}
+#navi .container #gnb li a{
+  color: #fff;
+}
 #navi .container h1 a{
   display: inline-block;
   width: 150px; height: 42px;
@@ -80,7 +91,9 @@ body {
   background-size: contain;
   margin: 10px 0 0 15px;
 }
-#navi .container #gnb li a:hover{color: #f1d204;}
+#navi .container #gnb li a:hover{
+  color: #f1d204;
+}
 
 /* navbar-toggle button */
 #navi .navbar-toggle{
@@ -109,9 +122,15 @@ body {
   box-shadow: 10px 0 10px #ccc !important;
 }
 .fixed .container h1 a, 
-.fixed .container #gnb li a{color: #000 !important;}
-.fixed .container h1 a{ background: url(../images/lg/logo-black.png) no-repeat 0 0 !important; } 
-.fixed .container #gnb li a:hover{color: #f1d204 !important;}
+.fixed .container #gnb li a{
+  color: #000 !important;
+}
+.fixed .container h1 a{ 
+  background: url(../images/lg/logo-black.png) no-repeat 0 0 !important; 
+} 
+.fixed .container #gnb li a:hover{
+  color: #f1d204 !important;
+}
 
 /* Active Class Setting */
 .fixed .container #gnb li.active>a,
@@ -171,7 +190,8 @@ body {
   content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #000;
-  position: absolute; left: 50%; bottom: 0;
+  position: absolute; 
+  left: 50%; bottom: 0;
   margin-left: -40px;
 }
 /* 버튼들 */
@@ -187,31 +207,33 @@ body {
 #portfolio #filters-container .cbp-filter-item:nth-child(2){
   margin: 0 2%;
 }
-/* 버튼 활성화 클래스 */
-.gmenu-act{ background-color: #6a4d8a !important;}
+/* 포트폴리오 버튼 활성화 클래스 */
+.gmenu-act{ 
+  background-color: #6a4d8a !important;
+}
 
 /* Gallery Area Start */
 #portfolio .cbp-item{
   z-index: 1;
 }
 #portfolio .cbp-item .img-hover-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0; left: 0;
   z-index: -1;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #portfolio .cbp-item .link-btn,
 #portfolio .cbp-item .detail-btn{
-  width: 60px; height: 60px;
-  border-radius: 50%;
-  border: 2px solid #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 
   -webkit-transition: all ease 0.4s;
   -moz-transition: all ease 0.4s;
@@ -229,32 +251,33 @@ body {
 
  /* Popup Content Area Start */
  .white-popup{
-  position: relative;
   width: 50%; height: auto; 
-  margin: auto;
+  position: relative;
   background-color: #fff; 
   border-radius: 7px;
   padding: 30px;
+  margin: auto;
 }
 .white-popup h2{
-  margin-bottom: 21px;
   font: bold 1.6rem/21px 'Nanum Gothic', sans-serif;
+  margin-bottom: 21px;
 }
 
 
 /* ********** about Area Start ********* */
 #about .title h3{
   height: 63px;
+  position: relative;
   font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-bottom: 42px;
-  position: relative;
 }
 #about .title h3::after{
   content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #000;
-  position: absolute; left: 50%; bottom: 0;
+  position: absolute; 
+  left: 50%; bottom: 0;
   margin-left: -40px;
 }
 #about .about-text{
@@ -290,17 +313,18 @@ body {
 /* title */
 #contact .title h3{
   height: 63px;
+  position: relative;
+  color: #fff;
   font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-bottom: 21px;
-  color: #fff;
-  position: relative;
 }
 #contact .title h3::after{
   content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #fff;
-  position: absolute; left: 50%; bottom: 0;
+  position: absolute; 
+  left: 50%; bottom: 0;
   margin-left: -40px;
 }
 
@@ -314,13 +338,13 @@ body {
   width: 100%; height: 50px;
   font: 400 1.8rem/21px 'Nanum Gothic', sans-serif;
   color: #fff;
-  margin-bottom: 42px;
   text-align: center;
+  margin-bottom: 42px;
 }
 #contact .contact-info .info>div{
   width: 33.3%; height: 50px; 
-  float: left;
   line-height: 50px;
+  float: left;
 }
 #contact .contact-info .info>div span{
   content: ""; display: inline-block;
@@ -342,22 +366,19 @@ body {
 }
 #contact form .form-group>label{
   display: block;
-  width: 100%; 
-  height: 30px;
+  width: 100%; height: 30px;
   font-size: 1.6rem; 
   text-indent: 0;
   color: #fff;
 }
 #contact form .form-group>input{
-  width: 100%;
-  height: 30px;
+  width: 100%; height: 30px;
 }
 #contact form .form-group>div{
   color: #fff;
 }
 #contact form .form-group>textarea{
-  width: 100%;
-  height: 150px;
+  width: 100%; height: 150px;
 }
 #contact form p{
   text-align: right;
@@ -370,11 +391,11 @@ body {
 /* top-btn */
 .top-btn {
   width: 40px; height: 40px;
-  border-radius: 50%;
-  background-color: #ccc;
   position: fixed;
   bottom: 15px; right: 15px;
   z-index: 10;
+  border-radius: 50%;
+  background-color: #ccc;
   text-align: center;
   display: none;
 }
