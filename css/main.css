@@ -112,7 +112,7 @@ body {
 }
 
 
-/* 상단 메뉴 활성화 클래스 */
+/* 상단 메뉴 고정 활성화 클래스 */
 .fixed{
   background-color: rgba(255, 255, 255, 1) !important;
 
@@ -139,7 +139,7 @@ body {
   color: #f1d204 !important;
 }
 
-/* 부트스트랩 메뉴 초기화 */
+/* 스크롤스파이 배경컬러 투명화 */
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover{

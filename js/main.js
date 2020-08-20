@@ -12,16 +12,22 @@ $(function(){
 
   // cubeportfolio
   $('#grid-container').cubeportfolio({
-    filters: '#filters-container',
-    animationType: 'slideLeft',
-    gapHorizontal: 0,
-    gapVertical: 0,
-    mediaQueries: [
-      {width: 1200, cols: 4}, 
-      {width: 991, cols: 4}, 
-      {width: 768, cols: 2}, 
-      {width: 480, cols: 2}
-     ] 
+    filters: '#filters-container',      //필터들
+    animationType: 'slideLeft',     //필터 적용시 애니메이션 효과
+    gapHorizontal: 0,                //가로 여백
+    gapVertical: 0,                    //세로 여백
+    mediaQueries: [                  //창 크기에 따른 컬럼 수 변화
+      {width: 1183, cols: 4}, 
+      {width: 974, cols: 4}, 
+      {width: 751, cols: 2}, 
+      {width: 463, cols: 2}
+     ] //17px씩 뺌(스크롤바 사이즈)
+    // mediaQueries: [
+    //   {width: 1200, cols: 4}, 
+    //   {width: 991, cols: 4}, 
+    //   {width: 768, cols: 2}, 
+    //   {width: 480, cols: 2}
+    //  ]
   });
 
   // 검정 반투명 hover 
@@ -49,7 +55,7 @@ $(function(){
 
   // jarallax Call
   $('.jarallax').jarallax({
-    speed: 0.2
+    speed: 0.2    //스크롤 시 움직이는 속도
   });
 
 
@@ -59,20 +65,17 @@ $(function(){
 
   // magnificPopup Call
   $('.detail-btn').magnificPopup({
-    type: 'inline',
-    closeBtnInside: true,
-    closeOnBgClick: true,
-    // gallery: {
-    //   enabled: true
-    // }
+    type: 'inline',                 //기본값
+    closeBtnInside: true,       //팝업창에 x버튼 생김
+    closeOnBgClick: true      //배경 클릭시 팝업창 닫힘
   });
 
 
   // sticky Call
   $(window).scroll(function(){
-    var scrollPos = $(window).scrollTop();
+    var scrollPos = $(window).scrollTop();    //스크롤바 수직 위치 저장
 
-    // 상단 네비게이션 설정
+    // 상단 고정 네비게이션 설정
     if(scrollPos>20){
       $('#navi').addClass('fixed');
     }else {
@@ -88,7 +91,8 @@ $(function(){
 
   });
 
-  // 상단 네비게이션 스크롤이동 설정
+  // 스크롤이동 설정
+  // gnb 링크, 로고, 맨위로가기 버튼, View More 버튼
   var menuItem = $('#gnb li a, #navi h1 a, .top-btn, #intro .intro-inner a');
 
   menuItem.click(function(){
@@ -108,7 +112,7 @@ $(function(){
 
   // Scrollspy Call
   $('body').scrollspy({ 
-    offset: 51  
+    offset: 51  //맨 위로부터 얼만큼 떨어져 있는지
   });
   
 });

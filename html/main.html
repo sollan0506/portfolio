@@ -26,10 +26,10 @@
   <link rel='stylesheet' href='../css/main.css'>
  
 </head>
-<body data-spy="scroll" data-target="#navi">
+<body data-spy="scroll" data-target="#navi"><!-- navi에 스크롤스파이 적용 -->
 
   <!-- 상단 네비게이션 영역 시작 -->
-  <nav class='navbar navbar-default navbar-fixed-top' id="navi">
+  <nav class='navbar navbar-default navbar-fixed-top' id="navi"><!-- 스크롤 시 상단에 고정되는 네비게이션 -->
     <div class='container'>
     
     
@@ -38,14 +38,14 @@
     
         <!-- Mobile Button Start -->
         <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#gnb'>
-          <span class='sr-only'>Toggle navigation</span>
+          <span class='sr-only'>Toggle navigation</span><!-- sr-only : 부트스트랩 자체 숨김 클래스 -->
           <span class='icon-bar'></span>
           <span class='icon-bar'></span>
           <span class='icon-bar'></span>
         </button>
       
         <!-- Site Logo Start -->
-        <h1><a class='navbar-logo ir' href='#intro'>Site Logo</a></h1>
+        <h1><a class='ir' href='#intro'>Site Logo</a></h1>
     
       </div>
     
@@ -60,7 +60,7 @@
         </ul>
       
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.container -->
   </nav>
 
   <!-- Wrap Area Start -->
@@ -88,7 +88,8 @@
         </div>
 
         <!-- Gallery Menu Area Start -->
-        <div id="filters-container">
+        <div id="filters-container"><!-- filters-container : 큐브포트폴리오 필터들 묶음 -->
+          <!-- cbp-filter-item : 필터, data-filter : 항목 필터링용 키워드 -->
           <div class="cbp-filter-item btn-small" data-filter="*">All</div>
           <div class="cbp-filter-item btn-small" data-filter=".g1">WEB</div>
           <div class="cbp-filter-item btn-small" data-filter=".g2">RWA</div>
@@ -96,11 +97,11 @@
         
         
         <!-- Gallery Area Start -->
-        <div id="grid-container">
-          <div class="cbp-item g2">
+        <div id="grid-container"><!-- 큐브포트폴리오 그리드 컨테이너 -->
+          <div class="cbp-item g2"><!-- 큐브포트폴리오 그리드 아이템 및 필터링 키워드 -->
             <img src="../images/lg/res-project2.jpg" alt="반응형사이트2 캡쳐화면">
             <div class="img-hover-box">
-              <a href="#popup2" class="detail-btn">
+              <a href="#popup2" class="detail-btn"><!-- detail-btn을 누르면 매그니픽팝업과 연동 -->
                 <i class="fa fa-search" aria-hidden="true"></i>
               </a>
               <a href="https://sollan0506.github.io/resproject2" target="_blank" class="link-btn">
@@ -231,8 +232,8 @@
           </div>
         </div>
 
-        <!-- Popup Area Start -->
-        <div id="popup2" class="white-popup mfp-hide">
+        <!-- magnific-popup Area Start -->
+        <div id="popup2" class="white-popup mfp-hide"><!-- id로 연동, white-popup: 기본값, mfp-hide : 일단 숨겨놓음 -->
           <h2>반응형 사이트 1</h2>
           <p>제작기간: 디자인 3일, 코딩 4일</p>
           <p>기여도: 100%</p>
