@@ -22,7 +22,8 @@ body {
   width: 150px; height: 42px;
   font: 700 1.8rem/42px 'Nanum Gothic', sans-serif;
 }
-.btn-default:hover{
+.btn-default:hover, 
+.btn-default:focus {
   text-decoration: none;
   background-color: #6a4d8a;
   color: #fff;
