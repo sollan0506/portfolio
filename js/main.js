@@ -114,5 +114,34 @@ $(function(){
   $('body').scrollspy({ 
     offset: 51  //맨 위로부터 얼만큼 떨어져 있는지
   });
+
+  
+  // ScrollMagic Call
+  // ScrollMagic 컨트롤러 생성
+  var controller = new ScrollMagic.Controller();
+
+  var pb1 = $('.progress-bar1'),
+       pb2 = $('.progress-bar2'),
+       pb3 = $('.progress-bar3'),
+       pb4 = $('.progress-bar4'),
+       pb5 = $('.progress-bar5'),
+       pb6 = $('.progress-bar6'),
+       tl1 = new TimelineMax(); // Animation 오브젝트 생성
+
+      // pb1을 1초동안 { } (출발지점), { } (도착지점) 하게 0.5초 뒤에 실행한다. 
+  tl1.fromTo(pb1, 1, {width: 0}, {width: "70%"}, 0.5) 
+     .fromTo(pb2, 1, {width: 0}, {width: "60%"}, 0.5)
+     .fromTo(pb3, 1, {width: 0}, {width: "90%"}, 0.5)
+     .fromTo(pb4, 1, {width: 0}, {width: "85%"}, 0.5)
+     .fromTo(pb5, 1, {width: 0}, {width: "75%"}, 0.5)
+     .fromTo(pb6, 1, {width: 0}, {width: "80%"}, 0.5);
+  
+  // scene 오브젝트(장면) 설정
+  var scene = new ScrollMagic.Scene({
+    triggerElement: '#skill',  // #skill 요소에 닿으면 애니메이션 발생
+    triggerHook: "0.9"        // 닿는점을 정의(0~1, 아래~위)
+  })
+  .setTween(tl1)                // 애니메이션 셋팅
+  .addTo(controller);          // scene 오브젝트(장면)를 컨트롤러에 추가
   
 });
