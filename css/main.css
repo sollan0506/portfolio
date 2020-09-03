@@ -20,7 +20,7 @@ body {
 }
 .btn-default{
   width: 150px; height: 42px;
-  font: 700 1.8rem/42px "Nanum Gothic", sans-serif;
+  font: 700 1.8rem/42px 'Nanum Gothic', sans-serif;
 }
 .btn-default:hover, 
 .btn-default:focus {
@@ -30,7 +30,7 @@ body {
 }
 .btn-small{
   width: 130px; height: 42px;
-  font: 700 1.4rem/42px "Nanum Gothic", sans-serif;
+  font: 700 1.4rem/42px 'Nanum Gothic', sans-serif;
 }
 .btn-small:hover{
   text-decoration: none;
@@ -46,7 +46,7 @@ body {
 .jarallax > .jarallax-img {
   position: absolute;
   object-fit: cover;
-  font-family: "object-fit: cover;";
+  font-family: 'object-fit: cover;';
   top: 0;
   left: 0;
   width: 100%;
@@ -165,17 +165,17 @@ body {
   text-align: center;
 }
 #intro .intro-inner h2:first-child{
-  font: 700 6rem "Nanum Gothic", sans-serif;
+  font: 700 6rem 'Nanum Gothic', sans-serif;
   color: #fff;
   margin-bottom: 21px;
 }
 #intro .intro-inner h2:nth-child(2){
-  font: 700 3rem "Nanum Gothic", sans-serif;
+  font: 700 3rem 'Nanum Gothic', sans-serif;
   color: #fff;
   margin-bottom: 63px;
 }
 #intro .intro-inner a {
- font: 400 1.6rem/42px "Nanum Gothic", sans-serif;
+ font: 400 1.6rem/42px 'Nanum Gothic', sans-serif;
 }
 
 
@@ -183,12 +183,12 @@ body {
 /* ********** Portfolio Area Start ********* */
 #portfolio .title h3{
   height: 63px;
-  font: 700 3.6rem/42px "Nanum Gothic", sans-serif;
+  font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-top: 63px;
 }
 #portfolio .title h3::after{
-  content: ""; display: block;
+  content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #000;
   position: absolute; 
@@ -260,7 +260,7 @@ body {
   margin: auto;
 }
 .white-popup h2{
-  font: bold 1.6rem/21px "Nanum Gothic", sans-serif;
+  font: bold 1.6rem/21px 'Nanum Gothic', sans-serif;
   margin-bottom: 21px;
 }
 
@@ -269,12 +269,12 @@ body {
 #about .title h3{
   height: 63px;
   position: relative;
-  font: 700 3.6rem/42px "Nanum Gothic", sans-serif;
+  font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-bottom: 42px;
 }
 #about .title h3::after{
-  content: ""; display: block;
+  content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #000;
   position: absolute; 
@@ -285,18 +285,18 @@ body {
   padding: 0 5%;
 }
 #about .about-text h4{
-  font: bold 3rem "Nanum Gothic", sans-serif;
+  font: bold 3rem 'Nanum Gothic', sans-serif;
 }
 #about .about-text .text-body{
-  font: 400 1.6rem/1.5 "Nanum Gothic", sans-serif;
+  font: 400 1.6rem/1.5 'Nanum Gothic', sans-serif;
 }
 #about .about-text .text-name{
   text-align: right;
-  font: bold 2.4rem/21px "Nanum Gothic", sans-serif;
+  font: bold 2.4rem/21px 'Nanum Gothic', sans-serif;
 }
 #about .about-text .details{
   text-align: right;
-  font: 400 1.6rem/21px "Nanum Gothic", sans-serif;
+  font: 400 1.6rem/21px 'Nanum Gothic', sans-serif;
 }
 #about .row img{
   display: block;
@@ -308,13 +308,13 @@ body {
 /* ********** skill Area Start ********* */
 #skill .title h3{
   height: 63px;
-  font: 700 3.6rem/42px "Nanum Gothic", sans-serif;
+  font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-bottom: 42px;
   position: relative;
 }
 #skill .title h3::after{
-  content: ""; display: block;
+  content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #000;
   position: absolute; left: 50%; bottom: 0;
@@ -328,11 +328,11 @@ body {
 }
 #skill .col-lg-6 h3{
   width: 100%; height: 42px;
-  font: 700 2.4rem/42px "Nanum Gothic", sans-serif;
+  font: 700 2.4rem/42px 'Nanum Gothic', sans-serif;
   position: relative;
 }
 #skill .col-lg-6 span{
-  font: 700 1.6rem/21px "Nanum Gothic", sans-serif;
+  font: 700 1.6rem/21px 'Nanum Gothic', sans-serif;
 }
 #skill .col-lg-6 .progress, 
 #skill .col-lg-6 .progress-bar {
@@ -364,12 +364,12 @@ body {
   height: 63px;
   position: relative;
   color: #fff;
-  font: 700 3.6rem/42px "Nanum Gothic", sans-serif;
+  font: 700 3.6rem/42px 'Nanum Gothic', sans-serif;
   text-align: center;
   margin-bottom: 21px;
 }
 #contact .title h3::after{
-  content: ""; display: block;
+  content: ''; display: block;
   width: 80px; height: 2px;
   background-color: #fff;
   position: absolute; 
@@ -385,7 +385,7 @@ body {
 /* info Start */
 #contact .contact-info .info{
   width: 100%; height: 50px;
-  font: 400 1.8rem/21px "Nanum Gothic", sans-serif;
+  font: 400 1.8rem/21px 'Nanum Gothic', sans-serif;
   color: #fff;
   text-align: center;
   margin-bottom: 42px;
@@ -396,7 +396,7 @@ body {
   float: left;
 }
 #contact .contact-info .info>div span{
-  content: ""; display: inline-block;
+  content: ''; display: inline-block;
   width: 1px; height: 15px;
   background-color: #fc0;
   margin: 0 10px;
@@ -411,7 +411,7 @@ body {
 }
 #contact form .form-group>div{
   color: #fff;
-  font: 400 1.4rem/21px "Nanum Gothic", sans-serif;
+  font: 400 1.4rem/21px 'Nanum Gothic', sans-serif;
 }
 #contact form .form-group>label{
   display: block;
@@ -487,10 +487,10 @@ body {
   /* ***** 개별영역 선언시작 ***** */
   /* intro Area Start */
   #intro .intro-inner h2:first-child{
-    font: 700 5rem "Nanum Gothic", sans-serif;
+    font: 700 5rem 'Nanum Gothic', sans-serif;
   }
   #intro .intro-inner h2:nth-child(2){
-    font: 700 3rem "Nanum Gothic", sans-serif;
+    font: 700 3rem 'Nanum Gothic', sans-serif;
   }
 
   /* about Area Start */
@@ -546,35 +546,35 @@ body {
 
   /* intro Area Start */
   #intro .intro-inner h2:first-child{
-    font: 700 3.6rem "Nanum Gothic", sans-serif;
+    font: 700 3.6rem 'Nanum Gothic', sans-serif;
   }
   #intro .intro-inner h2:nth-child(2){
-    font: 700 2.4rem "Nanum Gothic", sans-serif;
+    font: 700 2.4rem 'Nanum Gothic', sans-serif;
   }
   #intro .intro-inner a {
-    font: 400 1.4rem/42px "Nanum Gothic", sans-serif;
+    font: 400 1.4rem/42px 'Nanum Gothic', sans-serif;
   }
 
   /* Portfolio Area Start */
   #portfolio .title h3{
-    font: 700 3rem/42px "Nanum Gothic", sans-serif;
+    font: 700 3rem/42px 'Nanum Gothic', sans-serif;
   }
 
   /* about Area Start */
   #about .title h3{
-    font: 700 3rem/42px "Nanum Gothic", sans-serif;
+    font: 700 3rem/42px 'Nanum Gothic', sans-serif;
   }
   #about .about-text h4{
-    font: bold 2.4rem "Nanum Gothic", sans-serif;
+    font: bold 2.4rem 'Nanum Gothic', sans-serif;
   }
   #about .about-text .text-body{
-    font: 400 1.4rem/1.5 "Nanum Gothic", sans-serif;
+    font: 400 1.4rem/1.5 'Nanum Gothic', sans-serif;
   }
   #about .about-text .text-name{
-    font: bold 1.8rem/21px "Nanum Gothic", sans-serif;
+    font: bold 1.8rem/21px 'Nanum Gothic', sans-serif;
   }
   #about .about-text .details{
-    font: 400 1.4rem/21px "Nanum Gothic", sans-serif;
+    font: 400 1.4rem/21px 'Nanum Gothic', sans-serif;
   }
   #about .row img{
     display: none;
@@ -582,15 +582,15 @@ body {
 
   /* skill Area Start */
   #skill .title h3{
-    font: 700 3rem/42px "Nanum Gothic", sans-serif;
+    font: 700 3rem/42px 'Nanum Gothic', sans-serif;
   }
 
   /* contact Area Start */
   #contact .title h3{
-    font: 700 3rem/42px "Nanum Gothic", sans-serif;
+    font: 700 3rem/42px 'Nanum Gothic', sans-serif;
   }
   #contact .contact-info .info{
-    font: 400 1.6rem/21px "Nanum Gothic", sans-serif;
+    font: 400 1.6rem/21px 'Nanum Gothic', sans-serif;
   }
 }
 
@@ -600,7 +600,7 @@ body {
 
   /* info Start */
   #contact .contact-info .info{
-    font: 400 1.4rem/21px "Nanum Gothic", sans-serif;
+    font: 400 1.4rem/21px 'Nanum Gothic', sans-serif;
   }
   #contact .contact-info .info>div{
     width: 90%;
