@@ -172,6 +172,7 @@ body {
 #intro .intro-inner h2:nth-child(2){
   font: 700 3rem 'Nanum Gothic', sans-serif;
   color: #fff;
+  line-height: 1.5;
   margin-bottom: 63px;
 }
 #intro .intro-inner a {
@@ -491,6 +492,7 @@ body {
   }
   #intro .intro-inner h2:nth-child(2){
     font: 700 3rem 'Nanum Gothic', sans-serif;
+    line-height: 1.5;
   }
 
   /* about Area Start */
@@ -550,6 +552,7 @@ body {
   }
   #intro .intro-inner h2:nth-child(2){
     font: 700 2.4rem 'Nanum Gothic', sans-serif;
+    line-height: 1.5;
   }
   #intro .intro-inner a {
     font: 400 1.4rem/42px 'Nanum Gothic', sans-serif;
