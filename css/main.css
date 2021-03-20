@@ -252,7 +252,7 @@ body {
 }
 
  /* Popup Content Area Start */
- .white-popup{
+ .white-popup {
   width: 50%; height: auto; 
   position: relative;
   background-color: #fff; 
@@ -260,8 +260,9 @@ body {
   padding: 30px;
   margin: auto;
 }
-.white-popup h2{
+.white-popup h2 {
   font: bold 1.6rem/21px 'Nanum Gothic', sans-serif;
+  word-break: keep-all;
   margin-bottom: 21px;
 }
 
